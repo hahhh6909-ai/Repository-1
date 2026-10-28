@@ -1,0 +1,17 @@
+{
+      "name": "neonguard-toolkit",
+        "version": "1.0.0",
+          "description": "Consent-based messaging and OTP security toolkit",
+            "main": "index.js",
+              "type": "module",
+                "scripts": {
+                    "start": "node index.js"
+                      },
+                        "engines": {
+                            "node": ">=20"
+                              },
+                                "dependencies": {
+                                    "dotenv": "^16.4.7"
+                                      }
+                                      
+}

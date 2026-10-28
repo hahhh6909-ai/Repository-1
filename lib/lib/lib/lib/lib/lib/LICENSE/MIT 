@@ -1,0 +1,30 @@
+
+Sebelum dipublikasikan, pastikan kamu membuat file lisensi MIT yang sesuai atau mengganti bagian lisensi jika memilih lisensi lain.
+
+## 16. Konfigurasi provider
+
+<box border radius="lg" padding={3} gap={3}>
+  <row align="start" gap={3}>
+      <AsyncImage query="Twilio official red logo" aspectRatio="1:1" maxWidth="56px"/>
+          <box flex="1" gap={1}>
+                **<Entity value="Twilio" category="company" disambig="cloud communications API provider"/>**
+
+                      Untuk SMS dan panggilan suara, gunakan akun serta nomor pengirim yang telah dikonfigurasi.
+
+                            <text color="secondary" size="sm">Dokumentasi: <Link url="https://www.twilio.com/docs" title="Twilio Docs"/></text>
+                                </box>
+                                  </row>
+                                    <divider color="subtle"/>
+                                      <row align="start" gap={3}>
+                                          <AsyncImage query="WhatsApp Business Platform official logo" aspectRatio="1:1" maxWidth="56px"/>
+                                              <box flex="1" gap={1}>
+                                                    **<Entity value="WhatsApp Business Platform" category="software" disambig="official business messaging API"/>**
+
+                                                          Untuk WhatsApp, pastikan sender dan metode pengiriman sesuai ketentuan WhatsApp serta penyedia API.
+
+                                                                <text color="secondary" size="sm">Dokumentasi: <Link url="https://developers.facebook.com/docs/whatsapp/" title="WhatsApp Business Platform Docs"/></text>
+                                                                    </box>
+                                                                      </row>
+                                                                      </box>
+
+                                                                      **Catatan teknis:** kode ini merupakan fondasi yang dapat dijalankan, bukan sistem produksi yang sudah diaudit. Batas frekuensi saat ini tersimpan di memori dan dapat diatur ulang saat program restart; untuk produksi, pindahkan pembatasan ke penyimpanan persisten, tambahkan audit log yang aman, dan uji konfigurasi provider terlebih dahulu.
