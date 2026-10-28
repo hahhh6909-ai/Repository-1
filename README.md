@@ -1,8 +1,6 @@
 # Repository-1
 # NeonGuard Toolkit
 
-Node.js security and communication toolkit for Termux.
-
 ## Features
 
 - Local OTP generation and verification
