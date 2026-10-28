@@ -1,7 +1,6 @@
 # Repository-1
 # NeonGuard Toolkit
 
-
 ## Features
 
 - Local OTP generation and verification
